@@ -10,6 +10,7 @@ name = "pypi"
 scrapy = "*"
 redis = "*"
 cffi = "*"
+python-decouple = "*"
 
 
 [dev-packages]
