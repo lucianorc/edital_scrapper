@@ -4,13 +4,26 @@ Um simples web scrapper para uma newsletter de editais
 
 ## Objetivo
 
-Enviar atualização sobre editais e afins por email para as pessoas interessadas
+Enviar atualização sobre editais e afins por email.
 
 ## O que é preciso
 
 - Python >= 3.6
 - Pipenv
 - Scrapy
+
+## Como começar
+
+```sh
+$ pipenv shell
+# Virtual Environment created
+$ pipenv install
+# Packages installed
+$ cp .env.example .env
+# .env file created
+```
+
+Depois desses comandos, basta adicionar os seus valores do domínio e da chave da API do [MailGun](http://mailgun.com) para o envio das informações por email.
 
 ## Como recuperar as informações
 
